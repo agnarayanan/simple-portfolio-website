@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: #1c1c1c;
+    color: #d6efff;
+    padding: 20px;
+}
+
+.section-one__contact {
+    background-color: #ff6b35;
+    color: #d6efff;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-one__role {
+    margin top: 10px;
+    font-size: 25px;
+
+}
+
+.section-one__name {
+    font-size: 50px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+}
+
+.section-one__dec,
+.section-two__dec,
+.section-three__dec,
+.section-four__dec,
+.section-five__dec {
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: #1c1c1c;
+    color: #d6efff;
+    padding: 10px;
+}
+
+.section-five__title a {
+    color: skyblue;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #0af3f3;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.section-four {
+    background-color: #ee490d;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form__input,
+.contact-form__textarea,
+.contact-form__sumbit{
+    margin-top:;
+    
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+
+}
+.contact-form__textarea{
+    padding: 10px;
+    border:none;
+    border: solid black 1px;
+
+}
+.contact-form__sumbit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ff6b35;
+    color: #1c1c1c;
+    border: none;
+    color: aliceblue;
+}
+.section-one__contact:hover{
+    background-color: #0f1111;
+    transition: 0.5;
+
+}
+.contact-form__sumbit:hover{
+    background-color: #0f1111;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+.section-five a :hover{
+    background-color: rgb(147, 147, 241);
+}
+.section-five a{
+    font-size: 25px;
+}
